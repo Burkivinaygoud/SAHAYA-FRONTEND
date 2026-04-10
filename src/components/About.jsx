@@ -7,7 +7,7 @@ export default function About() {
         <div className="about-grid">
           <div className="about-image-stack">
             <div className="about-logo-bg"></div>
-            <img className="about-sahaya-logo" src="../images/sahaya-logo.png" alt="SAHAYA Logo" />
+            <img className="about-sahaya-logo" src="/images/sahaya-logo.png" alt="SAHAYA Logo" />
             <div className="about-badge-card">
               <div className="num">2008</div>
               <div className="lbl">Year Established</div>

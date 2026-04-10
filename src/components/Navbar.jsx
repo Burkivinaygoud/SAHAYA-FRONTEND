@@ -7,7 +7,7 @@ export default function Navbar({ scrolled, onAdminClick }) {
   return (
     <nav className={scrolled ? 'scrolled' : ''}>
       <Link to="/" className="nav-logo">
-        <img src="images/sahaya-logo.png" alt="Sahaya Logo" onError={(e) => e.target.style.display = 'none'} />
+        <img src="/images/sahaya-logo.png" alt="Sahaya Logo" onError={(e) => e.target.style.display = 'none'} />
         <div style={{ display: 'none', width: '44px', height: '44px', background: 'var(--blue-deep)', borderRadius: '10px', alignItems: 'center', justifyContent: 'center', color: 'white', fontFamily: 'Cormorant Garamond,serif', fontWeight: '700', fontSize: '1rem' }}>S</div>
         <div className="nav-logo-text">
           <span className="name">SAHAYA</span>
